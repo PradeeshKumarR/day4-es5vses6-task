@@ -12,7 +12,6 @@ fetch_all.onreadystatechange = () => {
     if (fetch_all.readyState === XMLHttpRequest.DONE){
         // If there is a connection between the client and server and the connection exists or URL exists
         let data = JSON.parse(fetch_all.response);
-        console.log(data);
 
         console.log("Fetching personal information using for in loop");
         for (let key in data){
@@ -30,10 +29,15 @@ fetch_all.onreadystatechange = () => {
             console.log( 'Passout year :', element.batchendyear);
         });
 
-        console.log("Fetching educational details using for of loop");
+        console.log("Fetching work details using for each");
         let work = data['work'];
-        
-        console.log(work);
+        work.forEach(element => {
+            console.log('Company Name :', element.company);
+            console.log('Designation :', element.position);
+            console.log('Joining Date :', element.startdate);
+            console.log('End Date :', element.enddate);
+            console.log('Job Summary :', element.summary);
+        })
 
         console.log("Fetching skills using for loop");
         let skills = data['skills'];
@@ -42,7 +46,12 @@ fetch_all.onreadystatechange = () => {
                 console.log(`${key} : ${skills[i][key]}`);
             }
         }
-        console.log(skills);
+
+        console.log("Fetching hobbies using for of loop");
+        let hobbies = data['interests'];
+        for (let key of hobbies){
+            console.log(key);
+        }
     }
 }
 
