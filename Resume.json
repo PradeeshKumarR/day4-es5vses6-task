@@ -55,8 +55,10 @@
         "nativelanguage": "Tamil",
         "foreignlanguage": "English"
     },
-    "interests": {
-        "sports": "Football",
-        "hobies": "walking"
-    }
+    "interests": [
+        "Football",
+        "Cricket",
+        "Walking",
+        "Trekking"
+    ]
 }
