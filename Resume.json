@@ -16,15 +16,13 @@
             "github": "https://github.com/PradeeshKumarR"
         }
     ],
-    "work": [
-        {
-            "company": "Infosys Ltd",
-            "position": "Senior Consultant",
-            "startdate": "21-09-2015",
-            "enddate": "Till date",
-            "summary": "Working as senior cybersecurity consultant"
-        }
-    ],
+    "work": {
+        "company": "Infosys Ltd",
+        "position": "Senior Consultant",
+        "startdate": "21-09-2015",
+        "enddate": "Till date",
+        "summary": "Working as senior cybersecurity consultant"
+    },
     "education": [
         {
             "degree": "M.Tech",
@@ -53,16 +51,12 @@
             "level": "beginner"
         }
     ],
-    "languages": [
-        {
-            "nativelanguage": "Tamil",
-            "foreignlanguage": "English"
-        }
-    ],
-    "interests": [
-        {
-            "sports": "Football",
-            "hobies": "walking"
-        }
-    ]
+    "languages": {
+        "nativelanguage": "Tamil",
+        "foreignlanguage": "English"
+    },
+    "interests": {
+        "sports": "Football",
+        "hobies": "walking"
+    }
 }

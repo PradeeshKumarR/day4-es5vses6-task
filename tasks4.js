@@ -12,13 +12,12 @@ fetch_all.onreadystatechange = () => {
     if (fetch_all.readyState === XMLHttpRequest.DONE){
         // If there is a connection between the client and server and the connection exists or URL exists
         let data = JSON.parse(fetch_all.response);
-        let basics = data['basics'];
-        for (let key in basics){
-            console.log(`${key} : ${basics[key]}`);
-        }
+        console.log(data);
+        console.log("Personal Information")
         for (let key in data){
             console.log(`${key} : ${data[key]}`);
         }
+        
     }
 }
 
