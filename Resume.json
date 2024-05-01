@@ -1,0 +1,72 @@
+{
+    "basics" : {
+        "name" : "Pradeesh Kumar R",
+        "designation" : "Programmer",
+        "picture" : "https://www.shutterstock.com/image-illustration/creative-illustration-default-avatar-profile-600nw-1383608699.jpg",
+        "email" : "pradeeshkumar@gmail.com",
+        "phone" : "(+91) 9486202249",
+        "location" : {
+            "address" : "21/75 Mariselvinivas",
+            "street" : "Thirunakkara",
+            "city" : "Kochi",
+            "pincode" : 686001,
+            "state" : "Kerala",
+            "country" : "India"
+        },
+        "profiles":[
+            {
+                "linkedin" : "https://www.linkedin.com/in/pradeesh-kumar-r-34b946234",
+                "github" : "https://github.com/PradeeshKumarR"
+            }
+        ]
+    },
+    "work" : [
+        {
+            "company" : "Infosys Ltd",
+            "position" : "Senior Consultant",
+            "startdate" : "21-09-2015",
+            "enddate" : "Till date",
+            "summary" : "Working as senior cybersecurity consultant"
+        }
+    ],
+    "education" : [
+        {
+            "degree" : "M.Tech",
+            "institution" : "NIIT University",
+            "department" : "Cybersecurity",
+            "studytype" : "Full Time",
+            "batchstartyear" : 2021,
+            "batchendyear" : 2022
+        },
+        {
+            "degree" : "B.Tech",
+            "institution" : "Karunya University",
+            "department" : "Mechanical Engineering",
+            "studytype" : "Full Time",
+            "batchstartyear" : 2011,
+            "batchendyear" : 2015
+        }
+    ],
+    "skills" : [
+        {
+            "name" : "Python",
+            "level" : "beginner"
+        },
+        {
+            "name" : "Javascript",
+            "level" : "beginner"
+        }
+    ],
+    "languages" : [
+        {
+            "nativelanguage" : "Tamil",
+            "foreignlanguage" : "English"
+        }
+    ],
+    "interests" : [
+        {
+            "sports" : "Football",
+            "hobies" : "walking"
+        }
+    ]
+}
