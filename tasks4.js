@@ -17,7 +17,8 @@ fetch_all.onreadystatechange = () => {
         for (let key in data){
             console.log(`${key} : ${data[key]}`);
         }
-        
+        let profiles = data["profiles"];
+        console.log(profiles);
     }
 }
 

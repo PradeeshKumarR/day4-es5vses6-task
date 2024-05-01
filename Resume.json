@@ -10,12 +10,10 @@
     "pincode": 686001,
     "state": "Kerala",
     "country": "India",
-    "profiles": [
-        {
-            "linkedin": "https://www.linkedin.com/in/pradeesh-kumar-r-34b946234",
-            "github": "https://github.com/PradeeshKumarR"
-        }
-    ],
+    "profiles": {
+        "linkedin": "https://www.linkedin.com/in/pradeesh-kumar-r-34b946234",
+        "github": "https://github.com/PradeeshKumarR"
+    },
     "work": {
         "company": "Infosys Ltd",
         "position": "Senior Consultant",
