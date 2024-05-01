@@ -3,7 +3,7 @@
 
 // For the above JSON, iterate over all for loops (for, for in, for of, forEach)
 const url = "https://raw.githubusercontent.com/PradeeshKumarR/day4-es5vses6-task/main/Resume.json";
-//const url = "https://dummyjson.com/products/1";
+
 //Fetch all the data from JSON file
 const fetch_all = new XMLHttpRequest(); //fetch all is an Object of the class XMLHttpRequest
 
@@ -13,12 +13,36 @@ fetch_all.onreadystatechange = () => {
         // If there is a connection between the client and server and the connection exists or URL exists
         let data = JSON.parse(fetch_all.response);
         console.log(data);
-        console.log("Personal Information")
+
+        console.log("Fetching personal information using for in loop");
         for (let key in data){
             console.log(`${key} : ${data[key]}`);
         }
-        let profiles = data["profiles"];
-        console.log(profiles);
+
+        console.log("Fetching educational details using for each");
+        let education = data["education"];
+        education.forEach(element => {
+            console.log( 'Degree :', element.degree);
+            console.log( 'Institute :', element.institution);
+            console.log( 'Department :', element.department);
+            console.log( 'Part Time/Full Time :', element.studytype);
+            console.log( 'Batch Start year :', element.batchstartyear);
+            console.log( 'Passout year :', element.batchendyear);
+        });
+
+        console.log("Fetching educational details using for of loop");
+        let work = data['work'];
+        
+        console.log(work);
+
+        console.log("Fetching skills using for loop");
+        let skills = data['skills'];
+        for (let i = 0; i < skills.length; i++){
+            for (let key in skills[i]){
+                console.log(`${key} : ${skills[i][key]}`);
+            }
+        }
+        console.log(skills);
     }
 }
 

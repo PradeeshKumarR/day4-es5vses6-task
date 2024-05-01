@@ -14,13 +14,15 @@
         "linkedin": "https://www.linkedin.com/in/pradeesh-kumar-r-34b946234",
         "github": "https://github.com/PradeeshKumarR"
     },
-    "work": {
-        "company": "Infosys Ltd",
-        "position": "Senior Consultant",
-        "startdate": "21-09-2015",
-        "enddate": "Till date",
-        "summary": "Working as senior cybersecurity consultant"
-    },
+    "work": [
+        {
+            "company": "Infosys Ltd",
+            "position": "Senior Consultant",
+            "startdate": "21-09-2015",
+            "enddate": "Till date",
+            "summary": "Working as senior cybersecurity consultant"
+        }
+    ],
     "education": [
         {
             "degree": "M.Tech",
